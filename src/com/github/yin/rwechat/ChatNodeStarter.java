@@ -22,7 +22,9 @@ public class ChatNodeStarter {
 		protected void doGet(HttpServletRequest req,
 				HttpServletResponse resp) throws ServletException,
 				IOException {
-			resp.getOutputStream().write("Hello world!".getBytes());
+			String name = req.getRequestURI().replaceAll("/", " ").trim();
+			String msg = "Hello " + (name.isEmpty() ? "world" : name) + "!";
+			resp.getOutputStream().write(msg.getBytes());
 		}
 	}
 
@@ -35,16 +37,15 @@ public class ChatNodeStarter {
 		
 		ServletContextHandler servletContextHandler = new ServletContextHandler();
 		servletContextHandler.setContextPath("/");
-		servletContextHandler.addServlet(new ServletHolder(new ChatServlet()), "/");
+		servletContextHandler.addServlet(new ServletHolder(new ChatServlet()), "/*");
 		server.setHandler(servletContextHandler);
 
-// Use for jsp
-//		WebAppContext webAppContext = new WebAppContext();
-//		webAppContext.setContextPath("/jsp");
-//		webAppContext.setResourceBase("./web/jsp");
+		WebAppContext webAppContext = new WebAppContext();
+		webAppContext.setContextPath("/jsp");
+		webAppContext.setResourceBase("./web/jsp");
 				
 		HandlerList handlers = new HandlerList();
-		handlers.setHandlers(new Handler[]{servletContextHandler, webAppContext});
+		handlers.setHandlers(new Handler[]{ webAppContext, servletContextHandler });
 		server.setHandler(handlers);
 
 		server.start();

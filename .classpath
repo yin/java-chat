@@ -3,13 +3,34 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="test"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
-	<classpathentry kind="lib" path="libs/jetty-server-9.1.2.v20140210.jar"/>
-	<classpathentry kind="lib" path="libs/jetty-util-9.1.2.v20140210.jar"/>
-	<classpathentry kind="lib" path="libs/servlet-api-3.1.jar"/>
-	<classpathentry kind="lib" path="libs/jetty-servlet-9.1.2.v20140210.jar"/>
-	<classpathentry kind="lib" path="libs/jetty-http-9.1.2.v20140210.jar"/>
-	<classpathentry kind="lib" path="libs/jetty-io-9.1.2.v20140210.jar"/>
-	<classpathentry kind="lib" path="libs/jetty-security-9.1.2.v20140210.jar"/>
-	<classpathentry kind="lib" path="libs/jetty-webapp-9.1.2.v20140210.jar"/>
+	<classpathentry kind="lib" path="/home/yin/Dropbox/storage/code/jetty-distribution-9.1.2.v20140210/lib/jetty-annotations-9.1.2.v20140210.jar"/>
+	<classpathentry kind="lib" path="/home/yin/Dropbox/storage/code/jetty-distribution-9.1.2.v20140210/lib/jetty-client-9.1.2.v20140210.jar"/>
+	<classpathentry kind="lib" path="/home/yin/Dropbox/storage/code/jetty-distribution-9.1.2.v20140210/lib/jetty-continuation-9.1.2.v20140210.jar"/>
+	<classpathentry kind="lib" path="/home/yin/Dropbox/storage/code/jetty-distribution-9.1.2.v20140210/lib/jetty-deploy-9.1.2.v20140210.jar"/>
+	<classpathentry kind="lib" path="/home/yin/Dropbox/storage/code/jetty-distribution-9.1.2.v20140210/lib/jetty-http-9.1.2.v20140210.jar"/>
+	<classpathentry kind="lib" path="/home/yin/Dropbox/storage/code/jetty-distribution-9.1.2.v20140210/lib/jetty-io-9.1.2.v20140210.jar"/>
+	<classpathentry kind="lib" path="/home/yin/Dropbox/storage/code/jetty-distribution-9.1.2.v20140210/lib/jetty-jaas-9.1.2.v20140210.jar"/>
+	<classpathentry kind="lib" path="/home/yin/Dropbox/storage/code/jetty-distribution-9.1.2.v20140210/lib/jetty-jaspi-9.1.2.v20140210.jar"/>
+	<classpathentry kind="lib" path="/home/yin/Dropbox/storage/code/jetty-distribution-9.1.2.v20140210/lib/jetty-jmx-9.1.2.v20140210.jar"/>
+	<classpathentry kind="lib" path="/home/yin/Dropbox/storage/code/jetty-distribution-9.1.2.v20140210/lib/jetty-jndi-9.1.2.v20140210.jar"/>
+	<classpathentry kind="lib" path="/home/yin/Dropbox/storage/code/jetty-distribution-9.1.2.v20140210/lib/jetty-plus-9.1.2.v20140210.jar"/>
+	<classpathentry kind="lib" path="/home/yin/Dropbox/storage/code/jetty-distribution-9.1.2.v20140210/lib/jetty-proxy-9.1.2.v20140210.jar"/>
+	<classpathentry kind="lib" path="/home/yin/Dropbox/storage/code/jetty-distribution-9.1.2.v20140210/lib/jetty-rewrite-9.1.2.v20140210.jar"/>
+	<classpathentry kind="lib" path="/home/yin/Dropbox/storage/code/jetty-distribution-9.1.2.v20140210/lib/jetty-schemas-3.1.jar"/>
+	<classpathentry kind="lib" path="/home/yin/Dropbox/storage/code/jetty-distribution-9.1.2.v20140210/lib/jetty-security-9.1.2.v20140210.jar"/>
+	<classpathentry kind="lib" path="/home/yin/Dropbox/storage/code/jetty-distribution-9.1.2.v20140210/lib/jetty-server-9.1.2.v20140210.jar"/>
+	<classpathentry kind="lib" path="/home/yin/Dropbox/storage/code/jetty-distribution-9.1.2.v20140210/lib/jetty-servlet-9.1.2.v20140210.jar"/>
+	<classpathentry kind="lib" path="/home/yin/Dropbox/storage/code/jetty-distribution-9.1.2.v20140210/lib/jetty-servlets-9.1.2.v20140210.jar"/>
+	<classpathentry kind="lib" path="/home/yin/Dropbox/storage/code/jetty-distribution-9.1.2.v20140210/lib/jetty-util-9.1.2.v20140210.jar"/>
+	<classpathentry kind="lib" path="/home/yin/Dropbox/storage/code/jetty-distribution-9.1.2.v20140210/lib/jetty-webapp-9.1.2.v20140210.jar"/>
+	<classpathentry kind="lib" path="/home/yin/Dropbox/storage/code/jetty-distribution-9.1.2.v20140210/lib/jetty-xml-9.1.2.v20140210.jar"/>
+	<classpathentry kind="lib" path="/home/yin/Dropbox/storage/code/jetty-distribution-9.1.2.v20140210/lib/servlet-api-3.1.jar"/>
+	<classpathentry kind="lib" path="/home/yin/Dropbox/storage/code/jetty-distribution-9.1.2.v20140210/lib/jsp/javax.el-3.0.0.jar"/>
+	<classpathentry kind="lib" path="/home/yin/Dropbox/storage/code/jetty-distribution-9.1.2.v20140210/lib/jsp/javax.servlet.jsp.jstl-1.2.2.jar"/>
+	<classpathentry kind="lib" path="/home/yin/Dropbox/storage/code/jetty-distribution-9.1.2.v20140210/lib/jsp/javax.servlet.jsp-2.3.2.jar"/>
+	<classpathentry kind="lib" path="/home/yin/Dropbox/storage/code/jetty-distribution-9.1.2.v20140210/lib/jsp/javax.servlet.jsp-api-2.3.1.jar"/>
+	<classpathentry kind="lib" path="/home/yin/Dropbox/storage/code/jetty-distribution-9.1.2.v20140210/lib/jsp/jetty-jsp-jdt-2.3.3.jar"/>
+	<classpathentry kind="lib" path="/home/yin/Dropbox/storage/code/jetty-distribution-9.1.2.v20140210/lib/jsp/org.eclipse.jdt.core-3.8.2.v20130121.jar"/>
+	<classpathentry kind="lib" path="/home/yin/Dropbox/storage/code/jetty-distribution-9.1.2.v20140210/lib/jsp/org.eclipse.jetty.orbit.javax.servlet.jsp.jstl-1.2.0.v201105211821.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
