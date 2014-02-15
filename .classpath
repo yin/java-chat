@@ -2,10 +2,14 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="test"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
 	<classpathentry kind="lib" path="libs/jetty-server-9.1.2.v20140210.jar"/>
 	<classpathentry kind="lib" path="libs/jetty-util-9.1.2.v20140210.jar"/>
 	<classpathentry kind="lib" path="libs/servlet-api-3.1.jar"/>
 	<classpathentry kind="lib" path="libs/jetty-servlet-9.1.2.v20140210.jar"/>
+	<classpathentry kind="lib" path="libs/jetty-http-9.1.2.v20140210.jar"/>
+	<classpathentry kind="lib" path="libs/jetty-io-9.1.2.v20140210.jar"/>
+	<classpathentry kind="lib" path="libs/jetty-security-9.1.2.v20140210.jar"/>
+	<classpathentry kind="lib" path="libs/jetty-webapp-9.1.2.v20140210.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
